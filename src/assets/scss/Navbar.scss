@@ -1,0 +1,39 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+    & .logo {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        &__span {
+            font-size: 25px;
+            font-weight: 700;
+            color: #4793FF;
+            text-transform: uppercase;
+        }
+    }
+
+    &__search {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+
+        &-input {
+            background: #4793FF33;
+            width: 194px;
+            height: 37px;
+            padding: 0 20px;
+            font-size: 16px;
+            font-weight: 500;
+            border-radius: 10px;
+            outline: none;
+            border: none;
+            color: var(--text);
+        }
+    }
+
+}
